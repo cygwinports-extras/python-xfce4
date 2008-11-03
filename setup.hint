@@ -1,0 +1,4 @@
+category: Python Gnome
+requires: cygwin glib2 gtk2-x11 libxfce4util libxfcegui4 python python-gobject2 python-gtk2 xfce4-panel
+sdesc: "Python Xfce4 library bindings"
+ldesc: "Python bindings for the Xfce4 libraries"

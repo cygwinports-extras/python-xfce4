@@ -1,0 +1,66 @@
+--- origsrc/pyxfce-4.4.0/panel/enums.c	2006-02-12 12:10:30.000000000 -0600
++++ src/pyxfce-4.4.0/panel/enums.c	2008-11-03 01:35:41.904380100 -0600
+@@ -8,7 +8,7 @@
+ #include "pygobject.h"
+ #include <gtk/gtk.h>
+ #include <libxfce4panel/xfce-panel-enums.h>
+-#include <libxfce4panel/xfce-panel-enum-types.h>
++#include <libxfce4panel/libxfce4panel-enum-types.h>
+ 
+ extern PyTypeObject PyGtkWidget_Type;
+ 
+--- origsrc/pyxfce-4.4.0/panel/enums.override	2005-10-29 11:23:28.000000000 -0500
++++ src/pyxfce-4.4.0/panel/enums.override	2008-11-03 01:35:12.560817900 -0600
+@@ -6,7 +6,7 @@
+ #include "pygobject.h"
+ #include <gtk/gtk.h>
+ #include <libxfce4panel/xfce-panel-enums.h>
+-#include <libxfce4panel/xfce-panel-enum-types.h>
++#include <libxfce4panel/libxfce4panel-enum-types.h>
+ 
+ extern PyTypeObject PyGtkWidget_Type;
+ 
+--- origsrc/pyxfce-4.4.0/panel/plugin_iface.c	2006-02-12 12:10:34.000000000 -0600
++++ src/pyxfce-4.4.0/panel/plugin_iface.c	2008-11-03 01:36:15.669836300 -0600
+@@ -8,7 +8,7 @@
+ #include "pygobject.h"
+ #include <gtk/gtk.h>
+ #include <libxfce4panel/xfce-panel-plugin-iface.h>
+-#include <libxfce4panel/xfce-panel-enum-types.h>
++#include <libxfce4panel/libxfce4panel-enum-types.h>
+ 
+ extern PyTypeObject PyGtkWidget_Type;
+ 
+--- origsrc/pyxfce-4.4.0/panel/plugin_iface.override	2006-01-01 07:02:27.000000000 -0600
++++ src/pyxfce-4.4.0/panel/plugin_iface.override	2008-11-03 01:36:22.029211300 -0600
+@@ -6,7 +6,7 @@
+ #include "pygobject.h"
+ #include <gtk/gtk.h>
+ #include <libxfce4panel/xfce-panel-plugin-iface.h>
+-#include <libxfce4panel/xfce-panel-enum-types.h>
++#include <libxfce4panel/libxfce4panel-enum-types.h>
+ 
+ extern PyTypeObject PyGtkWidget_Type;
+ 
+--- origsrc/pyxfce-4.4.0/panel/window.c	2006-02-12 12:10:35.000000000 -0600
++++ src/pyxfce-4.4.0/panel/window.c	2008-11-03 01:36:41.951086300 -0600
+@@ -8,7 +8,7 @@
+ #include "pygobject.h"
+ #include <gtk/gtk.h>
+ #include <libxfce4panel/xfce-panel-window.h>
+-#include <libxfce4panel/xfce-panel-enum-types.h>
++#include <libxfce4panel/libxfce4panel-enum-types.h>
+ 
+ extern PyTypeObject PyGtkWidget_Type;
+ 
+--- origsrc/pyxfce-4.4.0/panel/window.override	2005-10-29 11:23:28.000000000 -0500
++++ src/pyxfce-4.4.0/panel/window.override	2008-11-03 01:36:45.341711300 -0600
+@@ -6,7 +6,7 @@
+ #include "pygobject.h"
+ #include <gtk/gtk.h>
+ #include <libxfce4panel/xfce-panel-window.h>
+-#include <libxfce4panel/xfce-panel-enum-types.h>
++#include <libxfce4panel/libxfce4panel-enum-types.h>
+ 
+ extern PyTypeObject PyGtkWidget_Type;
+ 

@@ -1,0 +1,145 @@
+python-xfce4
+------------------------------------------
+Python bindings for the Xfce4 libraries
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  gdk-pixbuf2-2.12.12-1
+  glib2-2.16.6-1
+  gtk2-x11-2.12.12-1
+  libxfce4util-4.5.91-1
+  libxfcegui4-4.4.1-1
+  python-2.5.2-3
+  python-gobject2-2.14.2-1
+  python-gtk2-2.12.1-1
+  xfce4-panel-4.4.1-1
+
+Build requirements:
+(besides corresponding devel packages)
+  autoconf2.5-2.63-1
+  automake1.8-1.8.5-3
+  binutils-20080624-2
+  cygport-0.4.2-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  libtool-2.2.6a-1
+  make-3.81-1
+  pkg-config-0.23a-2
+  sed-4.1.5-2
+
+Canonical website:
+  http://pyxfce.xfce.org/
+
+Canonical download:
+  http://pyxfce.xfce.org/
+
+-------------------------------------------
+
+Build instructions:
+  unpack python-xfce4-4.4.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./python-xfce4-4.4.0-X.cygport all
+
+This will create:
+  /usr/src/python-xfce4-4.4.0-X-src.tar.bz2
+  /usr/src/python-xfce4-4.4.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/pkgconfig/pyxfce-1.0.pc
+  /usr/lib/python2.5/site-packages/xfce4/__init__.py
+  /usr/lib/python2.5/site-packages/xfce4/__init__.pyc
+  /usr/lib/python2.5/site-packages/xfce4/__init__.pyo
+  /usr/lib/python2.5/site-packages/xfce4/_gui.dll
+  /usr/lib/python2.5/site-packages/xfce4/_gui.la
+  /usr/lib/python2.5/site-packages/xfce4/_netk.dll
+  /usr/lib/python2.5/site-packages/xfce4/_netk.la
+  /usr/lib/python2.5/site-packages/xfce4/_panel.dll
+  /usr/lib/python2.5/site-packages/xfce4/_panel.la
+  /usr/lib/python2.5/site-packages/xfce4/_util.dll
+  /usr/lib/python2.5/site-packages/xfce4/_util.la
+  /usr/lib/python2.5/site-packages/xfce4/gui.py
+  /usr/lib/python2.5/site-packages/xfce4/gui.pyc
+  /usr/lib/python2.5/site-packages/xfce4/gui.pyo
+  /usr/lib/python2.5/site-packages/xfce4/netk.py
+  /usr/lib/python2.5/site-packages/xfce4/netk.pyc
+  /usr/lib/python2.5/site-packages/xfce4/netk.pyo
+  /usr/lib/python2.5/site-packages/xfce4/panel.py
+  /usr/lib/python2.5/site-packages/xfce4/panel.pyc
+  /usr/lib/python2.5/site-packages/xfce4/panel.pyo
+  /usr/lib/python2.5/site-packages/xfce4/util.py
+  /usr/lib/python2.5/site-packages/xfce4/util.pyc
+  /usr/lib/python2.5/site-packages/xfce4/util.pyo
+  /usr/share/doc/python-xfce4-4.4.0/AUTHORS
+  /usr/share/doc/python-xfce4-4.4.0/COPYING
+  /usr/share/doc/python-xfce4-4.4.0/ChangeLog
+  /usr/share/doc/python-xfce4-4.4.0/INSTALL
+  /usr/share/doc/python-xfce4-4.4.0/README
+  /usr/share/doc/python-xfce4-4.4.0/TODO
+  /usr/share/pyxfce/4.2/defs/aboutdialog.defs
+  /usr/share/pyxfce/4.2/defs/application.defs
+  /usr/share/pyxfce/4.2/defs/appmenuitem.defs
+  /usr/share/pyxfce/4.2/defs/arrow_button.defs
+  /usr/share/pyxfce/4.2/defs/class_group.defs
+  /usr/share/pyxfce/4.2/defs/clock.defs
+  /usr/share/pyxfce/4.2/defs/colorbutton.defs
+  /usr/share/pyxfce/4.2/defs/decorbutton.defs
+  /usr/share/pyxfce/4.2/defs/decortoggle.defs
+  /usr/share/pyxfce/4.2/defs/desktopentry.defs
+  /usr/share/pyxfce/4.2/defs/dialogs.defs
+  /usr/share/pyxfce/4.2/defs/enum_types.defs
+  /usr/share/pyxfce/4.2/defs/enums.defs
+  /usr/share/pyxfce/4.2/defs/external_plugin.defs
+  /usr/share/pyxfce/4.2/defs/filechooser.defs
+  /usr/share/pyxfce/4.2/defs/fileutils.defs
+  /usr/share/pyxfce/4.2/defs/framebox.defs
+  /usr/share/pyxfce/4.2/defs/gdk_extensions.defs
+  /usr/share/pyxfce/4.2/defs/gtk_extensions.defs
+  /usr/share/pyxfce/4.2/defs/gtk_style.defs
+  /usr/share/pyxfce/4.2/defs/gtktoxevent.defs
+  /usr/share/pyxfce/4.2/defs/i18n.defs
+  /usr/share/pyxfce/4.2/defs/iconbutton.defs
+  /usr/share/pyxfce/4.2/defs/icons.defs
+  /usr/share/pyxfce/4.2/defs/icontheme.defs
+  /usr/share/pyxfce/4.2/defs/itembar.defs
+  /usr/share/pyxfce/4.2/defs/kiosk.defs
+  /usr/share/pyxfce/4.2/defs/menubutton.defs
+  /usr/share/pyxfce/4.2/defs/miscutils.defs
+  /usr/share/pyxfce/4.2/defs/movehandler.defs
+  /usr/share/pyxfce/4.2/defs/pager.defs
+  /usr/share/pyxfce/4.2/defs/plugin_iface.defs
+  /usr/share/pyxfce/4.2/defs/rc.defs
+  /usr/share/pyxfce/4.2/defs/resource.defs
+  /usr/share/pyxfce/4.2/defs/scaled_image.defs
+  /usr/share/pyxfce/4.2/defs/screen.defs
+  /usr/share/pyxfce/4.2/defs/session_client.defs
+  /usr/share/pyxfce/4.2/defs/startup-notification.defs
+  /usr/share/pyxfce/4.2/defs/systemtray.defs
+  /usr/share/pyxfce/4.2/defs/tasklist.defs
+  /usr/share/pyxfce/4.2/defs/titled_dialog.defs
+  /usr/share/pyxfce/4.2/defs/togglebutton.defs
+  /usr/share/pyxfce/4.2/defs/trayicon.defs
+  /usr/share/pyxfce/4.2/defs/utf8.defs
+  /usr/share/pyxfce/4.2/defs/util.defs
+  /usr/share/pyxfce/4.2/defs/window.defs
+  /usr/share/pyxfce/4.2/defs/window_action_menu.defs
+  /usr/share/pyxfce/4.2/defs/window_menu.defs
+  /usr/share/pyxfce/4.2/defs/workspace.defs
+
+------------------
+
+Port Notes:
+
+----- version 4.4.0-2 -----
+Rebuilt for 4.5.91; removed bindings for obsolete MCS.
+
+----- version 4.4.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
